@@ -27,7 +27,8 @@ def heap_sort(lista):
     for i in range(n-1, 0, -1):
         lista[0], lista[i] = lista[i], lista[0]
         heapify(lista, i, 0)
-
+#En el metodo de Heap sort, se van acomodando por montones, el cual selecciona el maximo de todos los elementos y lo elimina
+#Asi consecutivamente hasta que se complete toda la lista
     return lista
 
 lista_nueva = heap_sort(lista)
