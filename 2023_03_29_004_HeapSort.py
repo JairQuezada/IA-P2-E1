@@ -4,7 +4,7 @@ lista = [random.randint(0,150)for _ in range(15)]
 #Se crea un lista de 15 datos, los cuales gracias al random se sacan listas diferentes cada vez que se ejecuta el programa
 
 print("Esta es la lista que se va a ordenar:   ",lista)
-#BubbleSort usa la lista que creamos previamente para acomodarlas
+#HeapSort usa la lista que creamos previamente para acomodarlas
 
 def heap_sort(lista):
     def heapify(lista, n, i):
